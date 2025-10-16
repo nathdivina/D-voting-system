@@ -1,0 +1,46 @@
+QMainWindow, QWidget {
+    background-color: #0f0f10;
+    color: #E6E6FA;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 11pt;
+}
+
+QLabel#title {
+    font-size: 14pt;
+    font-weight: 600;
+    color: #E6E6FA;
+}
+
+QLineEdit, QComboBox, QTextEdit {
+    background-color: #161618;
+    border: 1px solid #3C1361;
+    border-radius: 6px;
+    padding: 6px;
+    color: #E6E6FA;
+}
+
+QPushButton {
+    background-color: #3C1361;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background-color: #5E2E92;
+}
+
+QTableWidget {
+    background-color: #141415;
+    border: 1px solid #3C1361;
+    gridline-color: #3C1361;
+}
+
+QHeaderView::section {
+    background-color: #3C1361;
+    color: white;
+    padding: 5px;
+}
+
+/* compact layout tweaks */
+QWidget { padding: 6px; }
